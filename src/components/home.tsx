@@ -22,7 +22,7 @@ function Home({ name }: helloProps) {
     event.preventDefault(); // do not reset to default
   };
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     if (text.length < 1) {
       // if no text, return
       return;
