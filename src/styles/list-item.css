@@ -1,0 +1,5 @@
+.list-item {
+  flex: auto;
+  flex-direction: column;
+  font-size: small;
+}
