@@ -23,12 +23,10 @@ function Home({ name }: helloProps) {
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    if (text.length < 1) {
-      // if no text, return
-      return;
+    if (text.length > 0) {
+      setTextList([...textList, text]);
+      setText("");
     }
-    setTextList([...textList, text]);
-    setText("");
     event.preventDefault();
   };
 
