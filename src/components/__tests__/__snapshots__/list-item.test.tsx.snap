@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem component matches snapshot 1`] = `
+<body>
+  <div>
+    <li
+      class="list-item"
+      data-testid="list-item"
+    />
+  </div>
+</body>
+`;

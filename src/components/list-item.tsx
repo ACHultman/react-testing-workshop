@@ -5,7 +5,11 @@ interface ListItemProps {
 }
 
 export const ListItem = ({ text }: ListItemProps) => {
-  return <li className="list-item">{text ?? "No entry"}</li>;
+  return (
+    <li className="list-item" data-testid="list-item">
+      {text ?? "No entry"}
+    </li>
+  );
 };
 
 export default ListItem;

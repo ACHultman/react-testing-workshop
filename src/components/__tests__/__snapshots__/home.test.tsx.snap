@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component matches snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="hello"
+    >
+      <div
+        class="greeting"
+      >
+        Hello 
+        
+      </div>
+      <div>
+        <form
+          data-testid="form"
+        >
+          <label>
+            <div>
+              <input
+                data-testid="text-input"
+                type="text"
+                value=""
+              />
+            </div>
+          </label>
+          <input
+            type="submit"
+            value="Submit"
+          />
+        </form>
+      </div>
+      <button>
+        Kanye Time
+      </button>
+      <ul />
+    </div>
+  </div>
+</body>
+`;

@@ -11,6 +11,6 @@ export const getKanyeQuote = async () => {
       return quote;
     }
   } catch (error) {
-    console.error(error);
+    //console.error(error);
   }
 };
