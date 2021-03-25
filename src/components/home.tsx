@@ -4,11 +4,11 @@ import "../styles//home.css";
 import TextForm from "./text-form";
 import { getKanyeQuote } from "../api/quote";
 
-export interface helloProps {
+export interface homeProps {
   name: string;
 }
 
-function Home({ name }: helloProps) {
+function Home({ name }: homeProps) {
   const [text, setText] = useState("");
   const [textList, setTextList] = useState<string[]>([]);
 
